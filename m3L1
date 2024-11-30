@@ -17,7 +17,7 @@ image = [
 
 @app.route("/")
 def index():
-    return '<a href="/random_fact/">Получить рандомный факт </a>', '<a href="/luck/">Испытать удачу </a>'
+    return '<a href="/random_fact/">Получить рандомный факт </a>' + '<a href="/luck/">Испытать удачу </a>'
     
 @app.route("/random_fact/")
 def random_fact():
